@@ -1,17 +1,22 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monocraft', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url("../img/background.jpg");
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+@font-face {
+    font-family: 'Monocraft';
+    src: url(../fonts/Monocraft.otf);
 }
 
 @media screen and (min-width: 992px) {
@@ -21,4 +26,22 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+/* Section do titulo */
+
+#section_title{
+    border-bottom: 0px;
+    text-align: center;
+}
+
+#section_gen{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#section_title h1{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
