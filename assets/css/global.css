@@ -45,3 +45,13 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+#loadMoreButton{
+    border-radius: 5px;
+    background-color: aqua;
+}
